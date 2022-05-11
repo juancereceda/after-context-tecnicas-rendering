@@ -1,11 +1,14 @@
 import AppRouter from "./routes/AppRouter";
 import "./GlobalStyles.css";
+import CartContextProvider from "./context/CartContextProvider";
 
 function App() {
   return (
-    <>
-      <AppRouter />
-    </>
+    <div>
+      <CartContextProvider>
+        <AppRouter />
+      </CartContextProvider>
+    </div>
   );
 }
 

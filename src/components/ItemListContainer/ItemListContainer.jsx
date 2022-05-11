@@ -6,18 +6,19 @@ import ItemList from "../ItemList/ItemList";
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
   const { categoryId } = useParams();
 
   useEffect(() => {
+    setLoading(true);
     getProducts(categoryId)
       .then((resp) => setProducts(resp))
-      .catch((error) => console.log(error));
+      .catch((error) => console.log(error))
+      .finally(() => setLoading(false));
   }, [categoryId]);
 
   return (
-    <>
-      <ItemList products={products} />
-    </>
+    <> {loading ? <h1>Cargando...</h1> : <ItemList products={products} />}</>
   );
 };
 

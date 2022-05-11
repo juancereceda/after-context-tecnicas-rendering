@@ -1,4 +1,11 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-dark {
     background-color: #143F6B;
+}
+
+.bg-light {
+    background-color: white;
 }

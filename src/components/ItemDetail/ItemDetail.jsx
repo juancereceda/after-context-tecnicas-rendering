@@ -1,15 +1,22 @@
 import { useState } from "react";
-import GoToCart from "../GoToCart/GoToCart";
 
+import { useCartContext } from "../../context/CartContextProvider";
+import GoToCart from "../GoToCart/GoToCart";
 import ItemCount from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
 
 const ItemDetail = ({ product }) => {
-  const { name, price, imgUrl, stock } = product;
+  const { name, price, imgUrl, stock, id } = product;
   const [countToAdd, setCountToAdd] = useState(0);
+  const { addToCart, unitsPerProduct } = useCartContext();
 
   const handleOnAdd = (count) => {
+    if (count + unitsPerProduct(id) > stock) {
+      const availableToAdd = stock - unitsPerProduct(id);
+      return alert(`Solamente podes agregar ${availableToAdd} productos`);
+    }
     setCountToAdd(count);
+    addToCart(product, count);
   };
 
   return (
