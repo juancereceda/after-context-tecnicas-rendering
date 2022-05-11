@@ -15,7 +15,7 @@
 ### Ejecutar los siguientes comandos en consola desde el directorio deseado: 
 
 ### 1
-<code>git clone "https://github.com/juancereceda/after-context-tecnicas-rendering.git"</code>
+<code>git clone "URL DEL REPO FORKEADO"</code>
 
 ### 2
 <code>cd after-context-tecnicsa-rendering</code>
