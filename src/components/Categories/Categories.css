@@ -1,0 +1,9 @@
+.categories-container {
+    display: flex;
+}
+
+a {
+    margin-left: 15px;
+    color: #143F6B;
+    text-decoration: none;
+}

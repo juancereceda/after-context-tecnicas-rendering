@@ -1,5 +1,12 @@
+import AppRouter from "./routes/AppRouter";
+import "./GlobalStyles.css";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <AppRouter />
+    </>
+  );
 }
 
 export default App;

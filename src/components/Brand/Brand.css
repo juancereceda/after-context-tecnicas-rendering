@@ -1,0 +1,9 @@
+.flex-container {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.brand-logo {
+    height: 50px;
+}
