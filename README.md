@@ -19,12 +19,15 @@
 
 </br>
 ### 2
+
 <code>cd after-context-tecnicsa-rendering</code>
 
 </br>
 ### 3
+
 <code>npm install</code>
 
 </br>
 ### 4
+
 <code>npm start</code>
