@@ -18,7 +18,7 @@
 <code>git clone "URL DEL REPO FORKEADO"</code>
 
 ### 2
-<code>cd after-context-tecnicsa-rendering</code>
+<code>cd after-context-tecnicas-rendering</code>
 
 
 ### 3
