@@ -15,6 +15,9 @@
 ### Ejecutar los siguientes comandos en consola desde el directorio deseado: 
 
 <code>git clone "https://github.com/juancereceda/after-context-tecnicas-rendering.git"</code>
+</br>
 <code>cd after-context-tecnicsa-rendering</code>
+</br>
 <code>npm install</code>
+</br>
 <code>npm start</code>
