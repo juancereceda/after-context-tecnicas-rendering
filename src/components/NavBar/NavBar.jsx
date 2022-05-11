@@ -21,18 +21,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-/* 
-  true && true
-  true && false
-  false && true
-  false && false
-
-  true || true
-  true || false
-  false || true
-  false || false
-
-
-  
-*/
