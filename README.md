@@ -1,5 +1,6 @@
 # Repo repaso Context y tecnicas rendering Coderhouse
 
+## Este es un repositorio de la camada 31150 para repaso de Context y Tecnicas de rendering.
 
 ## Para descargar el repositorio:
 
@@ -11,6 +12,9 @@
 
 ![image](https://user-images.githubusercontent.com/80549567/167920169-68744c0f-41f6-4e59-a0be-5ecba84faf13.png)
 
-### Ejecutar los siguientes comandos en consola: 
+### Ejecutar los siguientes comandos en consola desde el directorio deseado: 
 
 <code>git clone "https://github.com/juancereceda/after-context-tecnicas-rendering.git"</code>
+<code>cd after-context-tecnicsa-rendering</code>
+<code>npm install</code>
+<code>npm start</code>
